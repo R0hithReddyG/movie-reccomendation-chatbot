@@ -1,0 +1,27 @@
+version: "3.1"
+
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to movie year questions
+  steps:
+  - intent: ask_movie_year
+  - action: action_get_movie_details
+
+- rule: Respond to movie rating questions
+  steps:
+  - intent: ask_movie_rating
+  - action: action_get_movie_details
+
+- rule: Thank response
+  steps:
+  - intent: thank
+  - action: utter_happy

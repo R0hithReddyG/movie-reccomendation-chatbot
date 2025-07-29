@@ -1,0 +1,75 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: search for a specific movie
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_movie
+  - action: action_search_movie
+  - intent: thank
+  - action: utter_happy
+
+- story: ask about highest grossing movies
+  steps:
+  - intent: ask_highest_grossing
+  - action: action_get_highest_grossing
+  - intent: ask_movie_details
+  - action: action_get_movie_details
+
+- story: ask about top rated movies
+  steps:
+  - intent: ask_top_rated
+  - action: action_get_top_rated
+  - intent: ask_movie_details
+  - action: action_get_movie_details
+
+- story: ask for movie recommendations
+  steps:
+  - intent: ask_movie_recommendation
+  - action: utter_ask_movie_preference
+  - intent: search_movie
+  - action: action_recommend_movies
+
+- story: ask for similar movies
+  steps:
+  - intent: ask_similar_movies
+  - action: action_get_similar_movies
+
+- story: ask movies by year
+  steps:
+  - intent: ask_movies_by_year
+  - action: action_get_movies_by_year
+- story: ask about top rated and highest grossing movies
+  steps:
+  - intent: ask_top_rated_and_grossing
+  - action: action_get_top_rated_and_grossing
+  - intent: ask_movie_details
+  - action: action_get_movie_details

@@ -1,0 +1,225 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - feeling down
+    - feeling sad
+    - I'm bored
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - what are you?
+
+- intent: search_movie
+  examples: |
+    - I want to know about [The Godfather](movie)
+    - Tell me about [Avatar](movie)
+    - Have you heard of [Inception](movie)?
+    - What do you know about [The Dark Knight](movie)?
+    - Information on [Pulp Fiction](movie)
+    - Tell me something about [Star Wars](movie)
+    - I'd like to learn about [Titanic](movie)
+    - What can you tell me about [Jurassic Park](movie)?
+    - Details on [The Matrix](movie)
+    - Give me info on [Forrest Gump](movie)
+
+- intent: ask_highest_grossing
+  examples: |
+    - What are the highest grossing movies?
+    - Show me the highest grossing films
+    - Which movies made the most money?
+    - Top box office movies
+    - Films with highest revenue
+    - Highest earning movies
+    - What are the most commercially successful films?
+    - Show me blockbuster movies
+    - Which movies earned the most?
+    - Highest grossing films of all time
+
+- intent: ask_top_rated
+  examples: |
+    - What are the top rated movies?
+    - Show me the best movies
+    - Which movies have the highest rating?
+    - Top IMDb movies
+    - Best rated films
+    - Movies with highest scores
+    - What are critically acclaimed films?
+    - Show me highly rated movies
+    - Best reviewed films
+    - Top movies according to critics
+
+- intent: ask_movie_details
+  examples: |
+    - Tell me more about [The Shawshank Redemption](movie)
+    - What is [The Godfather](movie) about?
+    - Details on [Pulp Fiction](movie)
+    - Can you tell me about [Fight Club](movie)?
+    - I want to know more about [Inception](movie)
+    - Give me details about [The Dark Knight](movie)
+    - More information on [Schindler's List](movie)
+    - What's the plot of [Avatar](movie)?
+    - Tell me the story of [Titanic](movie)
+    - What's [The Matrix](movie) about?
+
+- intent: ask_movie_year
+  examples: |
+    - When was [Pulp Fiction](movie) released?
+    - What year did [Avatar](movie) come out?
+    - When did [The Godfather](movie) release?
+    - Release year of [Inception](movie)
+    - When was [The Dark Knight](movie) made?
+    - Which year was [Titanic](movie) released?
+    - When did [Star Wars](movie) come out?
+    - What's the release date of [The Matrix](movie)?
+    - When did they make [Jurassic Park](movie)?
+    - Which year is [Forrest Gump](movie) from?
+
+- intent: ask_movie_rating
+  examples: |
+    - What's the rating of [The Shawshank Redemption](movie)?
+    - How well was [The Godfather](movie) rated?
+    - What score did [Pulp Fiction](movie) get?
+    - Rating for [Fight Club](movie)
+    - How good is [Inception](movie)?
+    - What's the IMDb score for [The Dark Knight](movie)?
+    - How highly rated is [Schindler's List](movie)?
+    - What rating did [Avatar](movie) receive?
+    - How many stars does [Titanic](movie) have?
+    - What's the critical score of [The Matrix](movie)?
+
+- intent: ask_movie_recommendation
+  examples: |
+    - Recommend me a good movie
+    - What movie should I watch?
+    - Suggest a film for tonight
+    - Give me a movie recommendation
+    - What's a good movie to see?
+    - Any movie suggestions?
+    - What do you recommend watching?
+    - Can you recommend a movie?
+    - I need a movie recommendation
+    - Help me find a good movie to watch
+
+- intent: ask_similar_movies
+  examples: |
+    - What movies are similar to [Inception](movie)?
+    - Find films like [The Godfather](movie)
+    - Movies similar to [Pulp Fiction](movie)
+    - What else is like [The Dark Knight](movie)?
+    - If I like [Fight Club](movie), what else would I enjoy?
+    - Suggest movies similar to [Avatar](movie)
+    - What should I watch if I liked [The Matrix](movie)?
+    - Films in the same style as [Schindler's List](movie)
+    - Similar movies to [Titanic](movie)
+    - What's comparable to [Forrest Gump](movie)?
+
+- intent: ask_movies_by_year
+  examples: |
+    - Show me movies from [1994](year)
+    - What are good films from [2010](year)?
+    - Movies released in [2000](year)
+    - What came out in [1972](year)?
+    - Best films of [1999](year)
+    - [2008](year) movie releases
+    - Films made in [1997](year)
+    - What movies were released in [2009](year)?
+    - Show me [1990](year) films
+    - Popular movies from [2012](year)
+
+- intent: ask_top_rated_and_grossing
+  examples: |
+    - Which movies are both top rated and highest grossing?
+    - Show me films that are critically acclaimed and commercially successful
+    - What are the best rated movies that also made a lot of money?
+    - Which blockbusters are also highly rated?
+    - Movies that are both popular with critics and audiences
+    - Top rated movies with highest box office
+    - Show me critically acclaimed blockbusters
+    - Which movies have both high ratings and high earnings?
+    - What are the top movies by both critical and commercial standards?
+    - Films that succeeded both financially and critically
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - great thanks
+    - appreciate it
+    - thanks for your help
+    - thank you very much
+    - thanks for the information
+    - that's helpful, thanks
+    - thanks for the recommendation
