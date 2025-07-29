@@ -1,0 +1,94 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - search_movie
+  - ask_highest_grossing
+  - ask_top_rated
+  - ask_top_rated_and_grossing
+  - ask_movie_details
+  - ask_movie_year
+  - ask_movie_rating
+  - ask_movie_recommendation
+  - ask_similar_movies
+  - ask_movies_by_year
+  - thank
+
+entities:
+  - movie
+  - year
+  - rating
+  - genre
+  - director
+  - actor
+
+slots:
+  movie:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: movie
+  year:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: year
+  rating:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: rating
+  genre:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: genre
+  search_context:
+    type: text
+    mappings:
+    - type: custom
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you with movies today?"
+
+  utter_cheer_up:
+  - text: "Here's something to cheer you up: 🎬"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a movie recommendation bot, powered by RASA and LangChain."
+
+  utter_ask_movie_preference:
+  - text: "What kind of movies do you like to watch?"
+
+  utter_default:
+  - text: "I'm not sure how to respond to that. Would you like to know about top movies or search for specific movie details?"
+
+actions:
+  - action_search_movie
+  - action_get_highest_grossing
+  - action_get_top_rated
+  - action_get_top_rated_and_grossing
+  - action_get_movie_details
+  - action_recommend_movies
+  - action_get_similar_movies
+  - action_get_movies_by_year
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

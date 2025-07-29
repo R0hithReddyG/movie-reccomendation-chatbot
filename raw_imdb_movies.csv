@@ -1,0 +1,51 @@
+rank,title,year_released,genre,rating
+1,The Shawshank Redemption,1994,Drama,9.3
+2,The Godfather,1972,"Crime, Drama",9.2
+3,The Dark Knight,2008,"Action, Crime, Drama, Thriller",9
+4,The Godfather: Part II,1974,"Crime, Drama",9
+5,12 Angry Men,1957,Drama,9
+6,The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy",9
+7,Schindler's List,1993,"Biography, Drama, History",9
+8,Pulp Fiction,1994,"Crime, Drama",8.9
+9,The Lord of the Rings: The Fellowship of the Ring,2001,"Fantasy, Adventure",8.9
+10,Il Buono  Il Brutto  Il Cattivo,1966,Western,8.8
+11,Forrest Gump,1994,"Drama, Romance",8.8
+12,The Lord of the Rings: The Two Towers,2002,"Fantasy, Adventure",8.8
+13,Fight Club,1999,"Drama, Thriller",8.8
+14,Inception,2010,"Action, Sci-Fi, Thriller",8.8
+15,Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy",8.7
+16,The Matrix,1999,"Action, Sci-Fi",8.7
+17,GoodFellas,1990,"Biography, Crime, Drama",8.7
+18,One Flew Over the Cuckoo's Nest,1975,Drama,8.7
+19,Interstellar,2014,"Adventure, Drama, Sci-Fi",8.7
+20,Se7en,1995,"Crime, Drama, Mystery",8.6
+21,It's a Wonderful Life,1946,"Drama, Family, Fantasy",8.6
+22,The Silence of the Lambs,1991,"Crime, Drama, Thriller",8.6
+23,Shichinin No Samurai,1954,"Action, Drama",8.6
+24,Saving Private Ryan,1998,"Drama, War",8.6
+25,City of God,2002,"Crime, Drama",8.6
+26,The Green Mile,1999,"Drama, Fantasy",8.6
+27,Star Wars: Episode IV - A New Hope,1977,"Action, Adventure, Fantasy",8.6
+28,Spirited Away,2001,"Animation, Adventure, Family",8.6
+29,Parasite,2019,"Drama, Thriller, Comedy",8.5
+30,Terminator 2: Judgment Day,1991,"Action, Sci-Fi",8.5
+31,The Pianist,2002,"Biography, Drama, Music",8.5
+32,Back to the Future,1985,"Adventure, Comedy, Sci-Fi",8.5
+33,Psycho,1960,"Horror, Mystery, Thriller",8.5
+34,Casablanca,1942,"Drama, Romance, War",8.5
+35,Rear Window,1954,"Mystery, Thriller",8.5
+36,Raiders of the Lost Ark,1981,"Action, Adventure",8.4
+37,Gladiator,2000,"Action, Adventure, Drama",8.5
+38,The Lion King,1994,"Animation, Adventure, Drama",8.5
+39,The Departed,2006,"Crime, Drama, Thriller",8.5
+40,Whiplash,2014,"Drama, Music",8.5
+41,The Prestige,2006,"Drama, Mystery, Sci-Fi",8.4
+42,Alien,1979,"Horror, Sci-Fi",8.3
+43,Cinema Paradiso,1988,"Drama, Romance",8.4
+44,Apocalypse Now,1979,"Drama, Mystery, War",8.4
+45,Django Unchained,2012,"Drama, Western",8.4
+46,2001: A Space Odyssey,1968,"Adventure, Sci-Fi",8.3
+47,WALL·E,2008,"Animation, Adventure, Family",8.4
+48,The Lives of Others,2006,"Drama, Mystery, Thriller",8.4
+49,Sunset Boulevard,1950,"Drama, Film-Noir",8.4
+50,Citizen Kane,1941,"Drama, Mystery",8.3
